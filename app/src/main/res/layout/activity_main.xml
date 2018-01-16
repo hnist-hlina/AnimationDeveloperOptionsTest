@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hlina.hnist.animationdeveloperoptionstest.MainActivity">
+
+    <ImageView
+        android:id="@+id/droid1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/droid"/>
+
+    <ImageView
+        android:id="@+id/droid2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/droid"/>
+
+    <ImageView
+        android:id="@+id/droid3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/droid"/>
+
+    <ImageView
+        android:id="@+id/droid4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/droid"/>
+
+
+    <ImageView
+        android:id="@+id/droid5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/droid"/>
+
+    <TextView
+        android:id="@+id/move"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:elevation="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#88a8a8a8"
+        android:text="move"
+        />
+</LinearLayout>
